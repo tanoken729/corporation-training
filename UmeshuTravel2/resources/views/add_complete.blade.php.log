@@ -1,0 +1,17 @@
+@extends('layouts.UmeshuTravel')
+
+@section('title','Show')
+
+@section('menubar')
+  @parent
+  詳細ページ
+@endsection
+
+@section('content')
+
+<p>宿登録完了</p>
+<button type="button" class="btn btn-primary" onclick="window.location.href='/admin'">確定</button><br>
+@endsection
+@section('footer')
+copyright 2020 tuyano.
+@endsection
